@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SLIC.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vibe-background-sequential.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PBAS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperPixelBackgroundSubstractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\BackgroundSubtractorLBSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\BackgroundSubtractorLBSP_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\BackgroundSubtractorLOBSTER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\BackgroundSubtractorPAWCS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\BackgroundSubtractorSuBSENSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\DistanceUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\LBSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\LBSP_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBSP\RandUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RTSuperpixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SLIC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vibe-background-sequential.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PBAS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperPixelBackgroundSubstractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LBSP\BackgroundSubtractorLBSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LBSP\BackgroundSubtractorLBSP_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LBSP\BackgroundSubtractorSuBSENSE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LBSP\LBSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LBSP\LBSP_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTSuperpixel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LBSP\LBSP_16bits_dbcross_1ch.i">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="LBSP\LBSP_16bits_dbcross_3ch1t.i">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="LBSP\LBSP_16bits_dbcross_3ch3t.i">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="LBSP\LBSP_16bits_dbcross_s3ch.i">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

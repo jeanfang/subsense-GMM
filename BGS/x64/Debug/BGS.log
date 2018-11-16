@@ -1,0 +1,119 @@
+﻿生成启动时间为 2018/8/2 11:23:13。
+     1>项目“D:\BJJM712\BGS\BGS\BGS\BGS.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt LBSP\BackgroundSubtractorLBSP.cpp LBSP\BackgroundSubtractorLBSP_.cpp LBSP\BackgroundSubtractorSuBSENSE.cpp LBSP\LBSP.cpp LBSP\LBSP_.cpp main.cpp PBAS.cpp RTSuperpixel.cpp SLIC.cpp SuperPixelBackgroundSubstractor.cpp "vibe-background-sequential.cpp"
+     1>cl : 命令行 warning D9038: 此平台上不支持 /ZI；请启用 /Zi
+     1>cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+     1>cl : 命令行 warning D9007: “/Gm”需要“/Zi”；选项被忽略
+         BackgroundSubtractorLBSP.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         BackgroundSubtractorLBSP_.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         BackgroundSubtractorSuBSENSE.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>LBSP\BackgroundSubtractorSuBSENSE.cpp(741): warning C4018: “<”: 有符号/无符号不匹配
+     1>LBSP\BackgroundSubtractorSuBSENSE.cpp(744): warning C4018: “<”: 有符号/无符号不匹配
+         LBSP.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         LBSP_.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         PBAS.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         RTSuperpixel.cpp
+     1>RTSuperpixel.cpp(99): warning C4101: “lab”: 未引用的局部变量
+     1>RTSuperpixel.cpp(155): warning C4244: “初始化”: 从“double”转换到“size_t”，可能丢失数据
+     1>RTSuperpixel.cpp(221): warning C4018: “<”: 有符号/无符号不匹配
+     1>RTSuperpixel.cpp(253): warning C4018: “<”: 有符号/无符号不匹配
+     1>RTSuperpixel.cpp(288): warning C4018: “<”: 有符号/无符号不匹配
+     1>RTSuperpixel.cpp(295): warning C4018: “<”: 有符号/无符号不匹配
+     1>RTSuperpixel.cpp(300): warning C4018: “<”: 有符号/无符号不匹配
+     1>RTSuperpixel.cpp(203): warning C4101: “db0”: 未引用的局部变量
+     1>RTSuperpixel.cpp(203): warning C4101: “dr0”: 未引用的局部变量
+     1>RTSuperpixel.cpp(203): warning C4101: “dg0”: 未引用的局部变量
+         SLIC.cpp
+     1>SLIC.cpp(328): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>SLIC.cpp(332): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(333): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(384): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(385): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(406): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(409): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(449): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(450): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(451): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(476): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(480): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(483): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(516): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>SLIC.cpp(543): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(544): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(545): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(546): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(648): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>SLIC.cpp(681): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(682): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(683): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(684): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(685): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(686): warning C4244: “=”: 从“const double”转换到“int”，可能丢失数据
+     1>SLIC.cpp(1122): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>SLIC.cpp(1159): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>SLIC.cpp(1162): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>SLIC.cpp(1199): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+     1>SLIC.cpp(1242): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+         SuperPixelBackgroundSubstractor.cpp
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv-3.2.0\msvc_2013_64\include\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         vibe-background-sequential.cpp
+     1>vibe-background-sequential.cpp(235): warning C4018: “<”: 有符号/无符号不匹配
+     1>vibe-background-sequential.cpp(312): warning C4018: “>”: 有符号/无符号不匹配
+     1>vibe-background-sequential.cpp(321): warning C4018: “<=”: 有符号/无符号不匹配
+     1>vibe-background-sequential.cpp(342): warning C4018: “<=”: 有符号/无符号不匹配
+     1>vibe-background-sequential.cpp(443): warning C4018: “<”: 有符号/无符号不匹配
+     1>vibe-background-sequential.cpp(610): warning C4018: “<”: 有符号/无符号不匹配
+     1>vibe-background-sequential.cpp(615): warning C4018: “<”: 有符号/无符号不匹配
+     1>vibe-background-sequential.cpp(793): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         E:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\BJJM712\BGS\BGS\x64\Debug\BGS.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc14\lib opencv_calib3d320d.lib opencv_core320d.lib opencv_features2d320d.lib opencv_flann320d.lib opencv_highgui320d.lib opencv_imgcodecs320d.lib opencv_imgproc320d.lib opencv_ml320d.lib opencv_objdetect320d.lib opencv_photo320d.lib opencv_shape320d.lib opencv_stitching320d.lib opencv_superres320d.lib opencv_video320d.lib opencv_videoio320d.lib opencv_videostab320d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\BJJM712\BGS\BGS\x64\Debug\BGS.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\BJJM712\BGS\BGS\x64\Debug\BGS.lib" /MACHINE:X64 x64\Debug\BackgroundSubtractorLBSP.obj
+         x64\Debug\BackgroundSubtractorLBSP_.obj
+         x64\Debug\BackgroundSubtractorSuBSENSE.obj
+         x64\Debug\LBSP.obj
+         x64\Debug\LBSP_.obj
+         x64\Debug\main.obj
+         x64\Debug\PBAS.obj
+         x64\Debug\RTSuperpixel.obj
+         x64\Debug\SLIC.obj
+         x64\Debug\SuperPixelBackgroundSubstractor.obj
+         "x64\Debug\vibe-background-sequential.obj"
+         BGS.vcxproj -> D:\BJJM712\BGS\BGS\x64\Debug\BGS.exe
+     1>已完成生成项目“D:\BJJM712\BGS\BGS\BGS\BGS.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.47
